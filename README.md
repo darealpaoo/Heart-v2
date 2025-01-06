@@ -4,7 +4,7 @@ This project is inspired by a demo shared on the [Three.js forum](https://discou
 
 ## Live Demo
 
-🎇🎂: [Click here 💖](https://darealpaoo.github.io/Heart-v2/
+🎇🎂: [Click here 💖](https://darealpaoo.github.io/Heart-v2/)
 
 ## Instructions:
 
