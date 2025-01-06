@@ -36,7 +36,7 @@ export class Text3D {
 
     return new Promise((resolve) => {
       this.loader.load(
-        "./src/assets/fonts/Noto Sans_Regular.json",
+        "./assets/fonts/Noto Sans_Regular.json",
         async (font) => {
           // Cleanup old text
           if (this.currentText) {
