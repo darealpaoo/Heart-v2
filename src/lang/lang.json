@@ -1,0 +1,50 @@
+{
+  "VN": {
+    "nameInput": "Nhập tên",
+    "messageInput": "Nhập thông điệp",
+    "submitButton": "Gửi",
+    "question": "Hôm nay biết là ngày gì hong?",
+    "birthdayButton": "Sinh nhật tui hả",
+    "notBirthdayButton": "Hong biết",
+    "allowButton": "Bắt đầu",
+    "retryButton": "Đồ ngốccc! Ấn vào đây thử lại điii",
+    "changeLangButton": "Switch to English",
+    "birthdayMessage": "Đúng gòiii sao giỏi thíaaa! Đợi 3 giây nhaaa",
+    "exit": "Thoát",
+    "welcomeMessage": "Ấn vào màn hình để thổi nến",
+    "message": "Chúc mừng sinh nhật {name} \n{message}",
+    "labelExitCheckBox": "Hiển thị nút Thoát?",
+    "successMessages": {
+      "linkCopied": "Liên kết đã được sao chép vào clipboard!"
+    },
+    "errorMessages": {
+      "musicBlocked": "Không thể phát nhạc do trình duyệt chặn!",
+      "invalidNameOrMessage": "Vui lòng nhập tên và thông điệp!",
+      "copyFailed": "Không thể sao chép liên kết. Đang chuyển hướng..."
+    }
+  },
+  "EN": {
+    "nameInput": "Write the name",
+    "messageInput": "Type your message",
+    "submitButton": "Submit",
+    "question": "Do you know what day it is today?",
+    "birthdayButton": "Is it my birthday?",
+    "notBirthdayButton": "I don't know",
+    "allowButton": "Start",
+    "retryButton": "You're so silly! Click here to try again",
+    "changeLangButton": "Đổi sang Tiếng Việt",
+    "birthdayMessage": "You're rightttt! Wait 3 seconds!",
+    "exit": "Exit",
+    "welcomeMessage": "Click on the screen to blow out the candle",
+    "message": "Happy birthday {name} \n{message}",
+    "labelExitCheckBox": "Display Exit button?",
+    "successMessages": {
+      "linkCopied": "The link has been copied to the clipboard!"
+    },
+    "errorMessages": {
+      "musicBlocked": "Cannot play music as the browser blocked it!",
+      "invalidNameOrMessage": "Please enter the name and message!",
+      "copyFailed": "Failed to copy the link. Redirecting...."
+    }
+  }
+}

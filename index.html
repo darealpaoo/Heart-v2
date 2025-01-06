@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Heart</title>
+    <link rel="icon" href="src/assets/images/logo.png" type="image/png" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://threejs.org/build/three.module.js",
+          "three/addons/": "https://threejs.org/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="namePrompt" style="display: none">
+      <label for="nameInput" id="labelNameInput"></label>
+      <input type="text" id="nameInput" />
+      <label for="messageInput" id="labelMessageInput"></label>
+      <input type="text" id="messageInput" />
+      <button id="submitButton"></button>
+      <button id="changeLangButton"></button>
+      <br /><br />
+      <div>
+        <label for="exitCheckbox" id="labelExitCheckBox"></label>
+        <input type="checkbox" id="exitCheckbox" />
+      </div>
+    </div>
+
+    <div id="overlay">
+      <img src="src/assets/images/chubby-tonton.gif" alt="Loading animation" />
+      <br />
+      <p id="question"></p>
+      <div class="button-container">
+        <button id="birthdayButton"></button>
+        <button id="notBirthdayButton"></button>
+        <button id="exit"></button>
+      </div>
+      <div id="messageBox" class="message-box"></div>
+      <button id="allowButton"></button>
+      <button id="retryButton"></button>
+    </div>
+
+    <div id="content"></div>
+    <script src="src/encrypt.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="src/app.js"></script>
+  </body>
+</html>
